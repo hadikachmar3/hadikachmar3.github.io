@@ -71026,7 +71026,7 @@ A.F9.prototype={
 E(a){return new A.bD(B.cY,A.IW(new A.F8(A.fU(null,B.aa,this.c),null)),null)}}
 A.Js.prototype={
 E(a){var s,r,q,p,o=null,n=t.l
-if(a.N(n).f.a.a<=500)s=4
+if(a.N(n).f.a.a<=500)s=3.5
 else s=a.N(n).f.a.a<1024?5:7
 r=t.p
 q=A.a([A.qJ("assets/images/bg.jpg",B.EJ,o,1/0),A.bS(o,o,B.n,A.aD(168,25,25,35),o,o,o,o,o,o,o,o,o)],r)
