@@ -3,13 +3,14 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "80ddc18f3c91fb589911ff143513983a",
+  "assets/AssetManifest.json": "8c5c0432a6d989f05173808c1c68adc5",
 "assets/assets/images/apps_courses/logos/carot.png": "8ae0c07d2d00640e89a64766994a1e86",
 "assets/assets/images/apps_courses/logos/converter_logo.png": "393bdc0a072607854f840dfdbed36820",
 "assets/assets/images/apps_courses/logos/ecommerce_logo.png": "c7a622c3b4b129bee62727dbdc5feedc",
 "assets/assets/images/apps_courses/logos/flutter_assistant_logo.jpg": "d2bb046c6bff00496992059ba3e5d18b",
 "assets/assets/images/apps_courses/logos/flutter_helper_kit_logo.jpg": "2fc4680654f1fae3d7203a7056a51f69",
 "assets/assets/images/apps_courses/logos/news_logo.png": "9e2abf07d3a2a5dbc466cee0a72661e4",
+"assets/assets/images/apps_courses/logos/shop_online.png": "abd4a5a8539a209763c531a1e974b77f",
 "assets/assets/images/apps_courses/logos/store_api_logo.png": "c285d2c32c7f8de2e92f0bfa874b8891",
 "assets/assets/images/apps_courses/logos/teach_driving_logo.png": "9ba7ef9029878f9d4464c4cf952abc8e",
 "assets/assets/images/apps_courses/logos/workos_logo.png": "851ba8b36e7f80c8761caf99531d2063",
@@ -55,9 +56,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "17931858b8a0c5f2d67f1ac53eba7ca7",
-"/": "17931858b8a0c5f2d67f1ac53eba7ca7",
-"main.dart.js": "b4d2353a02869d71029ad021d7464c9e",
+"index.html": "6b96a31946ecc29a94ae2ebe9db8aa9b",
+"/": "6b96a31946ecc29a94ae2ebe9db8aa9b",
+"main.dart.js": "e40f14e0b111ee91d6fd392faf69ce3c",
 "manifest.json": "845ca47f6e2f1c267385e20a765d017e",
 "version.json": "e956c0b6c0392931e49f9556bbe93750"
 };
