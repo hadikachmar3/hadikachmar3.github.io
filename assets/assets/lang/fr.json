@@ -49,6 +49,8 @@
     "educationTitleAzur": "Science des données et intelligence artificielle - MSc",
     "educationTitleLiu": "Ingénierie informatique et communication-MSc",
     "_comment5": "workExperience",
+    "amadeusWorkTitle": "Data Scientist - Stage",
+    "amadeusWorkDsc": "• A revu des articles scientifiques publics sur l'apprentissage fédéré Cross-Silo\n• A reproduit les conclusions des articles académiques pour vérifier les résultats de recherche\n• A examiné la durabilité de l'apprentissage fédéré Cross-Silo\n• A évalué les informations complémentaires de divers silos en utilisant pNML",
     "inriaWorkTitle": "Apprentissage automatique - Stage",
     "inriaWorkDsc": "• Extraire les caractéristiques visuelles (image), acoustiques (voix) et linguistiques (texte) de l'ensemble de données CMU MOSEI et MEAD \n• Entraîner les algorithmes de reconnaissance des émotions multimodales de pointe à l'aide des caractéristiques extraites\n• Analyser les performances des algorithmes de reconnaissance des émotions, y compris le calcul de la matrice de confusion, la précision équilibrée, le score F1\n• Visualisez les caractéristiques extraites à l'aide de l'algorithme T-SNE",
     "dowGroupWorkTitle": "Développeur mobile",
