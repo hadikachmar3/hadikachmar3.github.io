@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Data scientist | Master's student | Mobile developer&Instructor">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Hadi Kachmar">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <meta itemprop="headline" content="Hadi Kachmar" />
+  <meta name="description" content="Data scientist | Master's student | Mobile developer&Instructor" />
+  <link rel="canonical" href="https://img-c.udemycdn.com/user/200_H/124015642_30be_5.jpg" />
+
+  <meta name="keywords" content="Flutter, developer, mobile, dev, Hadi, kachmar, website, portfolio" />
+
+  <meta name="author" content="Hadi Kachmar" />
+  <!--#region Schema.org markup for Google+ -->
+  <meta itemprop="name" content="Hadi Kachmar" />
+  <meta itemprop="description" content="Data scientist | Master's student | Mobile developer&Instructor" />
+  <meta itemprop="image" content="https://img-c.udemycdn.com/user/200_H/124015642_30be_5.jpg" />
+  <!--#endregion -->
+  <!--#region Twitter Card data -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="Hadi Kachmar" />
+  <meta name="twitter:title" content="Hadi Kachmar" />
+  <meta name="twitter:description" content="Data scientist | Master's student | Mobile developer&Instructor">
+  <meta name="twitter:creator" content="Hadi Kachmar" />
+  <meta name="twitter:image" content="https://img-c.udemycdn.com/user/200_H/124015642_30be_5.jpg" />
+  <!--#endregion -->
+  <!--#region Open Graph data -->
+  <meta property="og:title" content="Hadi Kachmar" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://img-c.udemycdn.com/user/200_H/124015642_30be_5.jpg" />
+  <meta property="og:description" content="Data scientist | Master's student | Mobile developer&Instructor" />
+  <meta property="og:site_name" content="Hadi Kachmar" />
+
+  <!-- Favicon -->
+  <!-- <link rel="icon" type="image/png" href="favicon.png" /> -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <title>Hadi Kachmar</title>
+  <link rel="manifest" href="manifest.json">
+
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    var serviceWorkerVersion = '1995990442';
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
+  <script src="main.dart.js" defer></script>
+</head>
+
+<body style="overflow: hidden" , id="app-container">
+  <script>
+    window.addEventListener('load', function (ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        }
+      }).then(function (engineInitializer) {
+        return engineInitializer.initializeEngine();
+      }).then(function (appRunner) {
+        return appRunner.runApp();
+      });
+    });
+  </script>
+
+  <div id="loading_indicator" class="container">
+    <img class="indicator" src="./assets/loader.gif" />
+  </div>
+  <style>
+    .container {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      /* Default Axis is X*/
+      justify-content: center;
+      /* Main Axis */
+      align-items: center;
+      /* Cross Axis */
+    }
+
+    .indicator {
+      width: 5vw;
+      height: 5vw;
+    }
+  </style>
+  <script>
+    window.onload = function () {
+      setTimeout(function () {
+        var loadingIndicator = document.getElementById("loading_indicator");
+        if (loadingIndicator) {
+          loadingIndicator.remove();
+        }
+      }, 10000);
+    };
+  </script>
+</body>
+
+</html>
